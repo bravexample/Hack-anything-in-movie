@@ -22,4 +22,5 @@ fn main()
     }
 
     write!(io::stdout(), "{target} has been hacked.\n").unwrap();
+    press_btn_continue::wait("Press any key to continue...").unwrap();
 }
